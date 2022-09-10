@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insect Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <h1>Catch The Insect</h1>
+        <button class="btn" id="start_btn">Play Game</button>
+        <p id="sign">Developed by: _hurmit</p>
+    </div>
+
+    <div class="screen">
+        <h1>What is your "favourite" insect?</h1>
+        <ul class="insects_list">
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Fly</p>
+                    <img src="https://pngimg.com/uploads/fly/small/fly_PNG3946.png" alt="fly">
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Mosquito</p>
+                    <img src="https://pngimg.com/uploads/mosquito/small/mosquito_PNG18158.png" alt="mosquito">
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Spider</p>
+                    <img src="https://pngimg.com/uploads/spider/small/spider_PNG44.png" alt="spider">
+                </button>
+            </li>
+            <li>
+                <button class="choose_insect_btn">
+                    <p>Cockroach</p>
+                    <img src="https://pngimg.com/uploads/roach/small/roach_PNG12163.png" alt="cockroach">
+                </button>
+            </li>
+        </ul>
+    </div>
+
+    <div class="screen game_container" id="game_container">
+        <div class="data">
+            <h3 class="time" id="time">Time: 00:00</h3>
+            <h3 class="score" id="score">Score: 0</h3>
+        </div>
+        <h5 class="message" id="message">Are you annoyed yet? <br> You are playing an impossible game!!</h5>
+        <div class="won" id="won">
+           <h2>YOU BEAT THE GAME !</h2>
+        </div>     
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
